@@ -38,11 +38,7 @@ body{
 
 	a:hover{
 		-webkit-transition: 0.8s;
-<<<<<<< HEAD
-		color: red;
-=======
-		color: purple;
->>>>>>> FETCH_HEAD
+		color: white;
 	}
 
 	#wall	{
