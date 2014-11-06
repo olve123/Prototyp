@@ -1,0 +1,96 @@
+@charset "utf-8" ;
+
+body{
+	background-color: black;
+	margin:0;
+	}
+
+
+	#splash{	
+		position: absolute;
+
+	}
+
+	#link{
+		background-color: rgba(145,145,145,0.6);
+		width: 100%;
+		height: 100px;
+		position: absolute;
+		top: 50%;
+		border-top: 2px solid white;
+		border-bottom: 2px solid white;
+		-webkit-animation: fadeIn 3s;
+		
+
+	}
+
+	a{
+		position: relative;
+		color: rgb(238,201,0);
+		text-decoration: none;
+		text-align: center;
+		left: 41%;
+		top: 30%;
+		font-family: "lucida console", Monaco, Monospace;
+		font-weight: bold;
+		font-size: 40px;
+	}
+
+	a:hover{
+		-webkit-transition: 0.8s;
+		color: black;
+	}
+
+	#wall	{
+		width: 1920px;
+		height: 100%;
+		margin: 0;
+		-webkit-animation: fadeIn 3s;
+	}
+
+	#logo{
+		width: 100px;
+		height: 132px;
+		position: absolute;
+		left: 45%;
+	}
+
+	#header{
+		width: 100%;
+		height: 132px;
+		background-color: white;
+		position: absolute;
+		border-bottom: 5px solid black;
+	}
+
+	#gruppe14{
+		font-size: 50px;
+		left: 28%;
+		position: relative;
+		font-weight: bold;
+		font-family: "lucida console", Monaco, Monospace;
+	}
+
+	#hjelpekart{
+		font-size: 50px;
+		left: 53%;
+		position: absolute;
+		top: -5px;
+		font-weight: bold;
+		font-family: "lucida console", Monaco, Monospace;	
+	}
+
+	@-webkit-keyframes fadeIn {
+
+	0% {opacity: 0}
+	100%{opacity: 1}
+	
+	}
+
+
+
+
+
+
+	
+
