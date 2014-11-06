@@ -34,6 +34,7 @@ body{
 		font-family: "lucida console", Monaco, Monospace;
 		font-weight: bold;
 		font-size: 40px;
+		-webkit-transition:0.8s;
 	}
 	/*endrer farge til hvit med transition*/
 	a:hover{
