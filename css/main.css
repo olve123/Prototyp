@@ -8,7 +8,7 @@ body{
 	background-color: black;
 	
 	}
-
+/*Dette er karl johan knappen*/
 #knapp1{
 	height: 1px;
 	width: 1px;
@@ -22,6 +22,7 @@ body{
     bottom: 350px;
     
 }
+/*Dette skjer når man hovrer over knapp1*/
 #knapp1:hover{
 	height: 55%;
 	width: 50%;
@@ -34,36 +35,38 @@ body{
 	color: red;
 }
 
+/*Dette er det som ligger inne i boksen som kommer opp på hover*/
 #innhold {
 	opacity: 0;
 	-webkit-transition-property: opacity;
     -webkit-transition-duration: 0.7s;
     -webkit-transition-delay: 0.39s;
     }
+    /*Viser alt innholdet.*/
 #knapp1:hover #innhold{
 	opacity: 1;
 }
-
+/*skjult bilde*/
 #bilde1{
 	opacity: 0;
 	}
+/*Dette skjer med bilde når lenken KarlJohan 1920 blir trykket på (altså knapp 1)*/
 #KarlJohan1920:target ~ #bilde1{
 	opacity: 1;
 	-webkit-transition-property: opacity;
     -webkit-transition-duration: 0.5s;
 }
-
+/*skjuler bilde2*/
 #bilde2{
 	opacity: 0;
-	
-
 	}
+/*Viser bilde når lenken KarlJohan1930 blir trykket på (altså knapp 2)*/	
 #KarlJohan1930:target ~ #bilde2{
 	opacity: 1;
 	-webkit-transition-property: opacity;
     -webkit-transition-duration: 0.5s;
 }
-
+/*Endrer at alle bildene får samme størrelse og plassering*/
 img{
 	width: 300px;
 	position: absolute;
@@ -72,7 +75,7 @@ img{
 	border: 4px solid black;
 
 }
-
+/*tekst under bildene får samme plassering*/
 .bildetekst{
 	position: absolute;
 	left :330px;
