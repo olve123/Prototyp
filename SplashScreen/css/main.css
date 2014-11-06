@@ -10,7 +10,7 @@ body{
 		position: absolute;
 
 	}
-
+	/*Gjennomsiktig bar bak "enter site" */
 	#link{
 		background-color: rgba(145,145,145,0.6);
 		width: 100%;
@@ -23,7 +23,7 @@ body{
 		
 
 	}
-
+	/*Enter site lenken*/
 	a{
 		position: relative;
 		color: rgb(238,201,0);
@@ -35,26 +35,26 @@ body{
 		font-weight: bold;
 		font-size: 40px;
 	}
-
+	/*endrer farge til hvit med transition*/
 	a:hover{
 		-webkit-transition: 0.8s;
 		color: white;
 	}
-
+	/*Dette er bakgrunnsbilde*/
 	#wall	{
 		width: 1920px;
 		height: 100%;
 		margin: 0;
 		-webkit-animation: fadeIn 3s;
 	}
-
-	#logo{
+	/*Vår fantastiske logo*/
+	#logo{	
 		width: 100px;
 		height: 132px;
 		position: absolute;
 		left: 45%;
 	}
-
+	/*Denne forklarer seg selv..*/
 	#header{
 		width: 100%;
 		height: 132px;
@@ -62,7 +62,7 @@ body{
 		position: absolute;
 		border-bottom: 5px solid black;
 	}
-
+	/*Teksten på venstre side i header*/
 	#gruppe14{
 		font-size: 50px;
 		left: 28%;
@@ -70,7 +70,7 @@ body{
 		font-weight: bold;
 		font-family: "lucida console", Monaco, Monospace;
 	}
-
+	/*Teksten på høyre side i header*/
 	#hjelpekart{
 		font-size: 50px;
 		left: 53%;
@@ -79,7 +79,7 @@ body{
 		font-weight: bold;
 		font-family: "lucida console", Monaco, Monospace;	
 	}
-
+	/*Fadein Animasjon <3*/
 	@-webkit-keyframes fadeIn {
 
 	0% {opacity: 0}
